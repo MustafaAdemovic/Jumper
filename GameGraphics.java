@@ -46,7 +46,7 @@ public class GameGraphics extends JPanel implements ActionListener {
 		super.paintComponent(g);
 		this.setBackground(new Color(184, 242, 245));
 		g.setColor(new Color(54, 140, 22));
-		g.fill3DRect(0, 400, 500, 100, true);
+		g.fill3DRect(0, this.height-100, width, 100, true);
 		for (int i=0; i<elementCount; i++) {
 			elements[i].draw(g);
 		}
