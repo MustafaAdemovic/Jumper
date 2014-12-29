@@ -19,16 +19,6 @@ public class Play {
 		GameGraphics game = new GameGraphics(width, height);
 		window.setContentPane(game);		
 		
-		window.addComponentListener(new ComponentAdapter() {
-		    public void componentResized(ComponentEvent e) {
-		       height = window.getHeight();
-		       width = window.getWidth();
-		       
-		       game.setWidth(width);
-		       game.setHeight(height);
-		    }
-		});		
-		
 		window.setDefaultCloseOperation(window.EXIT_ON_CLOSE);
 		window.setVisible(true);
 

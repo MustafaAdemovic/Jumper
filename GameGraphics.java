@@ -20,7 +20,7 @@ public class GameGraphics extends JPanel implements ActionListener {
 		animation = new Timer(200, this);
 		elements = new Body[3];
 		elementCount = 1;
-		elements[0] = new Oval(0, 0, 20, 30, Color.RED, 3, 1);
+		elements[0] = new Oval(100, 100, 20, 30, Color.RED, 10, 10, 0, 0, 500, 400);
 		animation.start();
 		this.width = width;
 		this.height = heigth;
