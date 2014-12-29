@@ -14,6 +14,7 @@ public class Point {
 
 	public int getY() {
 		return y;
+		
 	}
 
 	public int getDistance(Point other) {
